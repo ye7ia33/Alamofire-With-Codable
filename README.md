@@ -1,13 +1,11 @@
 # Alamofire-With-Codable
-using Alamofire 4 With Codable
-
-
-**init pod 
-then add cocopoads repositry 
--pod 'Alamofire', '~> 4.7'
--pod 'SwiftyJSON', '~> 4.2'
-installing pods
-then drag and two files into project 
+**using Alamofire 4 With Codable**
+- init pod 
+- then add cocopoads repositry 
+    1. pod 'Alamofire', '~> 4.7'
+    2. pod 'SwiftyJSON', '~> 4.2'
+- installing pods
+3- then drag and two files into project 
 
 then if you need to calling 
 
