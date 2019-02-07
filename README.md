@@ -16,25 +16,25 @@ then if you need to calling
 // Create contact model
 // Inject phone model into Contact class 
 
-struct Contact: Codable {
-    var id : String
-    var name : String
-    var email : String
-    var address : String
-    var gender : String
-    var phone : Phone
-}
+    struct Contact: Codable {
+        var id : String
+        var name : String
+        var email : String
+        var address : String
+        var gender : String
+        var phone : Phone
+    }
 
-struct Phone: Codable {
-    var mobile : String
-    var home : String
-    var office : String
-}
+    struct Phone: Codable {
+        var mobile : String
+        var home : String
+        var office : String
+    }
 
 
-import SwiftyJSON
+    import SwiftyJSON
 
-class ViewController: UIViewController {
+    class ViewController: UIViewController {
 
     
     var contactArray = [Contact]()
@@ -57,5 +57,5 @@ class ViewController: UIViewController {
         }
     }
     
-}
+    }
 
