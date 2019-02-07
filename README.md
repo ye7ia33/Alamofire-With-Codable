@@ -2,7 +2,7 @@
 using Alamofire 4 With Codable
 
 
-init pod 
+**init pod 
 then add cocopoads repositry 
 pod 'Alamofire', '~> 4.7'
 pod 'SwiftyJSON', '~> 4.2'
@@ -12,10 +12,10 @@ then drag and two files into project
 then if you need to calling 
 
 
-\/\/ Example to use 
-\/\/ Create contact model 
-\/\/ Inject phone model into Contact class  
-
+- Example to use 
+- Create contact model 
+- Inject phone model into Contact class  
+```swift
     struct Contact: Codable {
         var id : String
         var name : String
@@ -58,4 +58,4 @@ then if you need to calling
     }
     
     }
-
+```
