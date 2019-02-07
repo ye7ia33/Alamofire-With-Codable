@@ -11,11 +11,11 @@ then drag and two files into project
 
 then if you need to calling 
 
-```
-// Example to use 
-// Create contact model 
-// Inject phone model into Contact class  
-```
+
+\/\/ Example to use 
+\/\/ Create contact model 
+\/\/ Inject phone model into Contact class  
+
     struct Contact: Codable {
         var id : String
         var name : String
