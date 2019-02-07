@@ -4,8 +4,8 @@ using Alamofire 4 With Codable
 
 **init pod 
 then add cocopoads repositry 
-pod 'Alamofire', '~> 4.7'
-pod 'SwiftyJSON', '~> 4.2'
+-pod 'Alamofire', '~> 4.7'
+-pod 'SwiftyJSON', '~> 4.2'
 installing pods
 then drag and two files into project 
 
